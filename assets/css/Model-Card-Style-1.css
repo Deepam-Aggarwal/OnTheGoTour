@@ -1,0 +1,139 @@
+.mc-border:hover {
+  border-color: #000;
+}
+
+.mc-border {
+  width: 100%;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+
+.mc-inner:hover {
+  border-color: #000;
+}
+
+.wrap {
+  height: 100%;
+  position: relative;
+}
+
+.mc-inner {
+  width: 100%;
+  margin: 0 auto;
+  background: white;
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+  transition: .2s linear;
+}
+
+.model-wrap {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.mc-border:hover .model-wrap:after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.model-wrap:after {
+  content: '';
+  background: rgba(0,0,0,0.48);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  opacity: 0;
+  transform: scale(.3);
+  transition: .3s ease-in-out;
+}
+
+.model-wrap img {
+  width: 100%;
+  height: auto;
+}
+
+.mc-border:hover .view-pro-btn {
+  opacity: 1;
+}
+
+.view-pro-btn {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: .3s ease-in-out;
+}
+
+.view-pro-btn a:hover {
+  color: black;
+}
+
+.view-pro-btn a {
+  text-decoration: none;
+  display: block;
+  border: 1px solid white;
+  white-space: nowrap;
+  text-transform: uppercase;
+  padding: .5em 1em;
+  font-size: 14px;
+  line-height: 1.6;
+  outline: none;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  min-width: 160px;
+  margin: 5px auto;
+  transition: .3s ease-in-out;
+}
+
+.view-pro-btn a:hover:after {
+  left: 0%;
+}
+
+.view-pro-btn a:after {
+  content: '';
+  position: absolute;
+  left: -220%;
+  top: -500%;
+  width: 140%;
+  height: 1000%;
+  transform: rotate(45deg);
+  background: white;
+  z-index: -1;
+  transition: .3s ease-in-out;
+}
+
+.model-info {
+  padding-bottom: 0px;
+  font-family: 'Noto Sans', sans-serif;
+  padding-top: 0px;
+}
+
+.model-title {
+  font-weight: normal;
+  font-family: "Open Sans";
+  font-size: 18px;
+  padding-top: 0px;
+}
+
+.mc-border:hover .view-pro-btn {
+  opacity: 1;
+}
+
+.model-title a {
+  color: #666666;
+}
+
+.mc-inner:hover .model-title a {
+  color: #000000;
+  text-decoration: none;
+}
+
