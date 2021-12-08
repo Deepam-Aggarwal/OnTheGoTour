@@ -197,7 +197,7 @@
   border-radius: 20px;
   background-color: #aaa;
   overflow: hidden;
-  background: url("/assets/img/a.gif");
+  background: url("assets/img/a.gif");
   background-size: cover;
   background-position: center;
   z-index: -1;
