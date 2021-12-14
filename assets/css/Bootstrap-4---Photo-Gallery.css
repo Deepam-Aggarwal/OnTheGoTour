@@ -2,3 +2,44 @@
   margin-top: 30px;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.top-0 {
+  top: 0 !important;
+}
+
+.start-0 {
+  left: 0 !important;
+}
+
+.translate-middle {
+  transform: translate(-50%, -50%) !important;
+}
+
+.translate-middle-x {
+  transform: translateX(-50%) !important;
+}
+
+.translate-middle-y {
+  transform: translateY(-50%) !important;
+}
+
+.bottom-0 {
+  bottom: 0 !important;
+}
+
+.start-100 {
+  left: 100% !important;
+}
+
+.py-20 {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
+.pt-lg-32 {
+  /*padding-top: 8rem !important;*/
+}
+
