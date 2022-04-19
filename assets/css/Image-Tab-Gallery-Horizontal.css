@@ -1,0 +1,41 @@
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px 5px;
+}
+
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+.img-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.img-container {
+  position: relative;
+}
+
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.top-container {
+  margin-top: 50px;
+}
+
+.h1, h1 {
+  font-size: 2.3rem;
+}
+
