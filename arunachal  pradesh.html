@@ -499,7 +499,7 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
             </div>
         </div>
     </div>-->
- <section style="background: var(--white);">   
+ <section style="background: var(--white); margin-top: -1rem;">   
     <h1 class="text-center mb-4" style="color: var(--gray-dark);font-family: Merriweather, serif;font-weight: bold;font-style: italic;margin: 12px;"><i class="fas fa-hotel"></i>Book your PARADISE&nbsp;</h1><div class="photo-gallery">
 <div class="container-fluid">
   <div class="px-lg-5">
@@ -789,6 +789,19 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
     <script src="assets/js/readmore.js"></script>
     <script src="assets/js/responsive-blog-card-slider-1.js"></script>
     <script src="assets/js/responsive-blog-card-slider.js"></script>
+    <script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "d131a958-ffee-430a-842e-00ce6f30a261", // The ID of this integration.
+      region: "eu-de", // The region your integration is hosted in.
+      serviceInstanceID: "1fdee916-b322-421c-83ed-5e7d138d6f4e", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js"
+    document.head.appendChild(t);
+  });
+</script>
 </body>
 
 </html>
