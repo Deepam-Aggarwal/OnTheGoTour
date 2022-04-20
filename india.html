@@ -434,6 +434,19 @@
     <script src="assets/js/Card-hover-affect-2.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     <script src="assets/js/readmore.js"></script>
+    <script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "d131a958-ffee-430a-842e-00ce6f30a261", // The ID of this integration.
+      region: "eu-de", // The region your integration is hosted in.
+      serviceInstanceID: "1fdee916-b322-421c-83ed-5e7d138d6f4e", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js"
+    document.head.appendChild(t);
+  });
+</script>
 </body>
 
 </html>
