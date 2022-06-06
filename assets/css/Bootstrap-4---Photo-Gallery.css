@@ -47,3 +47,53 @@
   padding: 0rem .2rem;
 }
 
+.vp-10 {
+  padding: 2.5rem;
+}
+
+.vbg-indigo-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(124,58,237,var(--tw-bg-opacity));
+}
+
+.vpy-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.vpy-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.vpx-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.vpx-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.vmx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vmb-8 {
+  margin-bottom: 2rem;
+}
+
+.vtext-6xl {
+  font-size: 2rem;
+}
+
+.vtext-7xl {
+  font-size: 2.125rem;
+}
+
+.vbg-blueGray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(251,252,253,var(--tw-bg-opacity));
+}
