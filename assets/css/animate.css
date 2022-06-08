@@ -1,0 +1,56 @@
+
+.bg-fo
+{
+  height:300px;
+  background: linear-gradient(
+180deg
+,#526ade .02%,#69d3c2 52.36%,#fef5bc 93.75%,#68d3c1);
+}
+
+.bg-water
+{
+  position:relative;
+  z-index:2;
+}
+.bg-stone
+{
+      position: absolute;
+    z-index: 0;
+}
+
+#wing
+{
+   transform-box: fill-box;
+    transform-origin: center;
+}
+
+#baloon
+{
+   transform-box: fill-box;
+    transform-origin: center;
+}
+
+#fan1
+{
+   transform-box: fill-box;
+    transform-origin: 58% 60%;
+}
+
+#fan2
+{
+   transform-box: fill-box;
+    transform-origin: 36% 49%;
+}
+
+#fan3
+{
+   transform-box: fill-box;
+    transform-origin: 57% 58%;
+}
+
+
+#Group_42
+{
+   transform-box: fill-box;
+    transform-origin: 58% 60%;
+}
