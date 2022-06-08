@@ -1,0 +1,56 @@
+function answer1(){
+document.getElementById("1").classList.toggle("is-hidden"); 
+document.getElementById("2").classList.add("is-hidden"); 
+document.getElementById("3").classList.add("is-hidden"); 
+document.getElementById("4").classList.add("is-hidden"); 
+document.getElementById("a2").classList.toggle("is-hidden"); 
+document.getElementById("a1").classList.toggle("is-hidden"); 
+document.getElementById("a3").classList.remove("is-hidden"); 
+document.getElementById("a4").classList.add("is-hidden"); 
+document.getElementById("a5").classList.remove("is-hidden"); 
+document.getElementById("a6").classList.add("is-hidden");  
+document.getElementById("a7").classList.remove("is-hidden"); 
+document.getElementById("a8").classList.add("is-hidden"); 
+}
+function answer2(){
+document.getElementById("2").classList.toggle("is-hidden"); 
+document.getElementById("1").classList.add("is-hidden"); 
+document.getElementById("3").classList.add("is-hidden"); 
+document.getElementById("4").classList.add("is-hidden"); 
+document.getElementById("a4").classList.toggle("is-hidden"); 
+document.getElementById("a3").classList.toggle("is-hidden"); 
+document.getElementById("a1").classList.remove("is-hidden"); 
+document.getElementById("a2").classList.add("is-hidden"); 
+document.getElementById("a5").classList.remove("is-hidden"); 
+document.getElementById("a6").classList.add("is-hidden");  
+document.getElementById("a7").classList.remove("is-hidden"); 
+document.getElementById("a8").classList.add("is-hidden"); 
+}
+function answer3(){
+document.getElementById("3").classList.toggle("is-hidden"); 
+document.getElementById("2").classList.add("is-hidden"); 
+document.getElementById("1").classList.add("is-hidden"); 
+document.getElementById("4").classList.add("is-hidden"); 
+document.getElementById("a6").classList.toggle("is-hidden"); 
+document.getElementById("a5").classList.toggle("is-hidden"); 
+document.getElementById("a7").classList.remove("is-hidden"); 
+document.getElementById("a8").classList.add("is-hidden"); 
+document.getElementById("a1").classList.remove("is-hidden"); 
+document.getElementById("a2").classList.add("is-hidden"); 
+document.getElementById("a3").classList.remove("is-hidden"); 
+document.getElementById("a4").classList.add("is-hidden");
+}
+function answer4(){
+document.getElementById("4").classList.toggle("is-hidden"); 
+document.getElementById("2").classList.add("is-hidden"); 
+document.getElementById("3").classList.add("is-hidden"); 
+document.getElementById("1").classList.add("is-hidden"); 
+document.getElementById("a8").classList.toggle("is-hidden"); 
+document.getElementById("a7").classList.toggle("is-hidden"); 
+document.getElementById("a1").classList.remove("is-hidden"); 
+document.getElementById("a2").classList.add("is-hidden"); 
+document.getElementById("a3").classList.remove("is-hidden"); 
+document.getElementById("a4").classList.add("is-hidden");
+document.getElementById("a5").classList.remove("is-hidden"); 
+document.getElementById("a6").classList.add("is-hidden"); 
+}
