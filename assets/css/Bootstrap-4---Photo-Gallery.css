@@ -137,8 +137,10 @@
 .tagline {
   grid-area: tagline;
   place-self: end start;
+  color:white;
+  margin: 0 0 0px;
 }
-
+ p.tagline{margin: 0 0 0px;}
 .actions {
   grid-area: actions;
   place-self: end;
