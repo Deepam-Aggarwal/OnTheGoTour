@@ -5,6 +5,7 @@
 .navbar>.container {
     align-items: inherit !important;
     display: flex !important;
+    justify-content: center;
 }
 
 .photo-gallery {
