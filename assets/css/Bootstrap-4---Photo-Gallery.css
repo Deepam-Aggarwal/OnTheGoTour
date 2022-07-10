@@ -4,6 +4,7 @@
 }
 .navbar>.container {
     align-items: inherit !important;
+    display: flex !important;
 }
 
 .photo-gallery {
