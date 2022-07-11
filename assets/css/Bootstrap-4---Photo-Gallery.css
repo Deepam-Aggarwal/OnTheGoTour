@@ -178,12 +178,12 @@
   transition: opacity 200ms ease-out;
 }
 
-.box img {
-  position: relative;
-  inline-size: 100%;
-  height: auto;
-  z-index: -2;
-}
+    .box img {
+        position: relative;
+        inline-size: 100%;
+        height: -webkit-fill-available;
+        z-index: -2;
+    }
 
 .tag {
   padding: var(--space);
