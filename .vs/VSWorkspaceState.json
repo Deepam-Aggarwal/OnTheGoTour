@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\assets",
+    "\\assets\\css",
     "\\assets\\js"
   ],
-  "SelectedNode": "\\assets\\js\\animatebackground.js",
+  "SelectedNode": "\\assets\\js\\readmore.js",
   "PreviewInSolutionExplorer": false
 }
